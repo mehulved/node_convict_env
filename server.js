@@ -7,5 +7,6 @@ var server = http.createServer(function(req, res) {
 });
 
 server.listen(conf.get('port'), conf.get('ip'), function(x) {
-    var addr = server.address();
+    var app = server.address();
+    console.log("Running on http://" + app.address + ":" + app.port);
 });
