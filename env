@@ -1,0 +1,5 @@
+# add `source /path/to/this/file` in your bashrc and run a login shell
+export QUEUE_IP="127.0.0.2"
+export QUEUE_PORT="11303"
+export QUEUE_PREFIX="local"
+
